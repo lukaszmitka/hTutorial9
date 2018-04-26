@@ -1,0 +1,5 @@
+<launch>
+    <node name="test_object_recognition" pkg="v4r_object_recognition" type="test_object_recognition" required="true" output="screen">
+        <param name="topic" value="/camera/depth_registered/points"/>
+    </node>
+</launch>

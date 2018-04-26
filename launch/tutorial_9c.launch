@@ -1,0 +1,7 @@
+<launch>
+    <node name="teleop_twist_keyboard" pkg="teleop_twist_keyboard" type="teleop_twist_keyboard.py" required="true" output="screen"></node>
+    <node name="recognition_service" pkg="v4r_object_recognition" type="recognition_service" required="true">
+        <param name="models_dir" value="/home/lukasz/RTMT_ws/data/models"/>
+        <param name="cfg_dir" value="/home/lukasz/libs_src/v4r/cfg"/>
+    </node>
+</launch>
