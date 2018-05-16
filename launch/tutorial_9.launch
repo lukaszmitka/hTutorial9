@@ -9,6 +9,7 @@
         <remap from="/rtab_map/rgb/camera_info" to="/camera/rgb/camera_info"/>
         <remap from="/rtab_map/depth/image" to="/camera/depth/image"/>
         <remap from="/rtab_map/scan" to="/scan"/>
+        <remap from="/rtab_map/grid_map" to="/map"/>
         <param name="subscribe_depth" type="bool" value="true"/>
         <param name="subscribe_scan" type="bool" value="true"/>
         <param name="RGBD/NeighborLinkRefining" type="string" value="true"/>
