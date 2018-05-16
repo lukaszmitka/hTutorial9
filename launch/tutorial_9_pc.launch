@@ -15,6 +15,7 @@
     </node>
     <node pkg="move_base" type="move_base" name="move_base" output="screen">
         <param name="controller_frequency" value="10.0"/>
+        <param name="recovery_behavior_enabled" value="false"/>
         <rosparam file="$(find htutorial_9)/conf/costmap_common_params.yaml" command="load" ns="global_costmap" />
         <rosparam file="$(find htutorial_9)/conf/costmap_common_params.yaml" command="load" ns="local_costmap" />
         <rosparam file="$(find htutorial_9)/conf/local_costmap_params.yaml" command="load" />
