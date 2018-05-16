@@ -7,4 +7,4 @@ global_costmap:
   origin_y: -7.5
   static_map: false
   rolling_window: true
-  resolution: 0.1
+  resolution: 0.01
