@@ -1,0 +1,5 @@
+catkin_generated
+build
+devel
+CTestTestfile.cmake
+cmake_install.cmake
